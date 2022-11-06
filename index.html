@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Stone - Solução financeira para seu negócio</title>
+    <link href="Css/style2.css" rel="stylesheet">
+    <link rel="icon" type="image/ico" href="/imagemStone/8903stoneicon-removebg-preview.ico" />
+</head>
+
+<header>
+
+    <nav>
+        <!--logo da stone inicio-->
+        <img id="img1" src="imagemStone/Stone_pagamentos.png" alt="some text" width=160 height=90>
+        <!--logo da stone final-->
+
+        <!--menu lateral inicio-->
+        <div class="navigation">
+            <ul>
+                <li class="list active">
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="home-outline"></ion-icon>
+                        </span>
+                        <span class="title">STONE</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="business-outline"></ion-icon>
+                        </span>
+                        <span class="title">Sobre a Stone</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="bag-handle-outline"></ion-icon>
+                        </span>
+                        <span class="title">Nossos produtos</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="people-outline"></ion-icon>
+                        </span>
+                        <span class="title">Blog do empreendedor</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="call-outline"></ion-icon>
+
+                        </span>
+                        <span class="title">Atendimento</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="star-outline"></ion-icon>
+                        </span>
+                        <span class="title">Seja Stone</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#">
+                        <span class="icon">
+
+                            <ion-icon name="logo-android"></ion-icon>
+                        </span>
+                        <span class="title">Baixe o app</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#">
+                        <span class="icon">
+
+                            <ion-icon name="log-in-outline"></ion-icon>
+                        </span>
+                        <span class="title">Login</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!--menu lateral final-->
+
+        <!--script dos icones do menu inicio-->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <!--script dos icones do menu final-->
+
+        <!--script das ações do menu inicio-->
+        <script>
+
+            const list = document.querySelectorAll('.list');
+            function activeLink() {
+                list.forEach((item) =>
+                    item.classList.remove('active'));
+                this.classList.add('active');
+            }
+            list.forEach((item) =>
+                item.addEventListener('click', activeLink));
+
+        </script>
+        <!--script das ações do menu final-->
+
+    </nav>
+
+
+</header>
+
+<body>
+
+    <!--dark mode inicio-->
+    <div>
+        <input type="checkbox" class="checkbox" id="chk" />
+        <label class="label" for="chk">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+            <div class="ball"></div>
+        </label>
+    </div>
+
+    <script src="/Js/script2.js"></script>
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+    <!--dark mode final-->
+
+    <!--1º caixa lateral esquerda inicio-->
+    <div id="h01">
+
+        <h1>Mais de 1 milhão de lojistas brasileiros <b>contam com a gente.</b></h1>
+        <h2></h2>
+        <h3>Uma solução financeira pra todo tipo de negócio. <br>Um atendimento no seu balcão, no seu horário, <br>sem
+            precisar de agência</h3>
+
+        <div class="container">
+
+            <input type="submit" value="Seja Stone agora">
+        </div>
+
+
+    </div>
+    <!--1º caixa lateral esquerda final-->
+
+    <!--2º caixa lateral direita slide inicio-->
+    <div id="h02">
+
+        <section class="galeria">
+            <img class="foto" src="imagemStone/stoneslide/001.webp" />
+            <img class="foto" src="imagemStone/stoneslide/002.webp" />
+            <img class="foto" src="imagemStone/stoneslide/003.webp" />
+            <img class="foto" src="imagemStone/stoneslide/004.webp" />
+            <img class="foto" src="imagemStone/stoneslide/005.webp" />
+            <img class="foto" src="imagemStone/stoneslide/006.webp" />
+
+        </section>
+
+
+
+    </div>
+    <!--2º caixa lateral direita slide final-->
+
+    <!--sobre a Stone inicio-->
+
+
+
+
+
+</body>
+
+</html>

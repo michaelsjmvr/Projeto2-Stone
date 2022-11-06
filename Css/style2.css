@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2? família= Dose: wght@200 & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Lagosta & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Nunito:wght@200 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    min-height: 40vh;
+    background: #fafafa;
+    margin-top: -2%;
+
+
+}
+
+.navigation {
+
+    display: flex;
+    position: relative;
+    height: 625px;
+    background: #013626;
+    width: 80px;
+    box-shadow: 10px 0 0 #168f3a;
+    border-left: 10px solid #013626;
+    overflow-x: hidden;
+    transition: 0.5s;
+    margin: 0%;
+    bottom: 0px;
+    top: -65px;
+
+
+
+}
+
+body.dark {
+
+    background: #1b1b1b;
+
+}
+
+
+.checkbox {
+    opacity: 0;
+    position: absolute;
+
+}
+
+.label {
+    background-color: #111;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 5px;
+    position: relative;
+    height: 26px;
+    width: 50px;
+    top: -260px;
+    left: 25px;
+    transform: scale(1.5);
+
+}
+
+
+.label .ball {
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: 22px;
+    width: 22px;
+    transform: translateX(0px);
+    transition: transform 0.2s linear;
+}
+
+.checkbox:checked+.label .ball {
+    transform: translateX(24px);
+}
+
+.fa-moon {
+    color: #22B24C;
+}
+
+.fa-sun {
+    color: #22B24C;
+}
+
+
+.navigation:hover {
+
+    width: 300px;
+
+}
+
+.navigation ul {
+
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 5px;
+    padding-top: 40px;
+
+}
+
+.navigation ul li {
+
+    position: relative;
+    list-style: none;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+
+}
+
+.navigation ul li a {
+
+    position: relative;
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+    color: #fafafa;
+
+
+}
+
+.navigation ul li a .icon {
+
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 70px;
+
+
+}
+
+.navigation ul li a .icon ion-icon {
+
+    position: relative;
+    font-size: 1.5rem;
+    z-index: 1;
+    padding: 16px;
+
+}
+
+.navigation ul li a .title {
+
+    position: relative;
+    display: block;
+    padding-left: 10px;
+    height: 60px;
+    line-height: 60px;
+    white-space: nowrap;
+
+
+}
+
+.navigation ul li.active {
+
+    background: #168f3a;
+
+}
+
+.navigation ul li.active a::before {
+
+    content: '';
+    position: absolute;
+    top: -30px;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background: #013626;
+    border-radius: 50%;
+    box-shadow: 15px 15px 0 #168f3a;
+
+}
+
+.navigation ul li.active a::after {
+
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background: #013626;
+    border-radius: 50%;
+    box-shadow: 15px -15px 0 #168f3a;
+
+}
+
+#img1 {
+
+    position: relative;
+    left: 650px;
+    top: 45px;
+    bottom: 0px;
+    width: 130;
+    height: auto;
+
+
+}
+
+#h01 {
+
+    position: relative;
+    background-image: linear-gradient(to left, #0D7953, #005C41);
+    width: 520px;
+    height: 460px;
+    padding-top: 150px;
+    padding-left: 10px;
+    left: -40px;
+    top: 40px;
+
+
+
+}
+
+#h02 {
+
+    position: relative;
+    background-image: linear-gradient(to left, #242424, #0D7953);
+    width: 610px;
+    height: 460px;
+    padding-top: 30px;
+    padding-left: 15px;
+    left: -40px;
+    top: 40px
+}
+
+
+h1 {
+
+    text-align: left;
+    position: relative;
+    padding: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    color: #fff;
+    top: -80px;
+    bottom: 0px;
+
+
+}
+
+h3 {
+
+    text-align: left;
+    text-decoration: #242424;
+    position: relative;
+    padding-left: 10px;
+    top: -60px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 30;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+
+div.container {
+
+
+    display: flex;
+    position: absolute;
+    left: 20px;
+    top: 370px;
+
+
+
+}
+
+input[type="submit"] {
+
+    padding: 10px 30px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #0D7953;
+    border: 1px solid #0b6847;
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+
+
+}
+
+input[type="submit"]:hover {
+
+    background-color: #108f63;
+    color: white;
+
+}
+
+.galeria {
+
+    margin: 500px auto;
+    display: block;
+    width: 605px;
+    height: 460px;
+    position: relative;
+    overflow: hidden;
+    bottom: 530px;
+    left: -10px;
+
+}
+
+.foto {
+
+    position: absolute;
+    opacity: 0;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    text-align: right;
+
+
+}
+
+@keyframes animacao {
+
+    25% {
+        opacity: 1;
+        transform: scale(1.1, 1.1);
+    }
+
+    50% {
+
+        opacity: 0;
+
+    }
+
+}
+
+.foto:nth-child(1) {}
+
+.foto:nth-child(2) {
+    animation-delay: 5s;
+
+}
+
+.foto:nth-child(3) {
+    animation-delay: 10s;
+
+}
+
+.foto:nth-child(4) {
+    animation-delay: 15s;
+
+}
+
+.foto:nth-child(5) {
+    animation-delay: 20s;
+
+}
+
+.foto:nth-child(6) {
+    animation-delay: 25s;
+
+}
